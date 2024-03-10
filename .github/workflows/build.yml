@@ -1,7 +1,8 @@
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  build:
-    runs-on: pop-os
-    steps:
-      - uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+  call-build-user-config:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      runner-label: 'self-hosted, pop-os'
+    secrets: inherit
