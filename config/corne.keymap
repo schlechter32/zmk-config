@@ -61,10 +61,10 @@
 
         ADJUST_LAYER {
             bindings = <
-&trans  &rgb_ug RGB_ON  &rgb_ug RGB_ON  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans          &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans          &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans          &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans          &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
