@@ -68,9 +68,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp Q                &kp W           &kp E                     &kp R          &kp T                  &kp Y      &kp U          &kp I                  &kp O                        &kp P                         &kp BSPC
-&kp TAB     &pinkyshift LSHFT A  &kp S           &hmlayer 2 D              &hmlayer 1 F   &kp G                  &kp H      &hmlayer 1 J   &hmlayer 2 K           &kp L                        &pinkyshift RSHIFT SEMICOLON  &kp RET
-&kp DEL     &kp Z                &hmmod LCTRL X  &hmmod LEFT_ALT C         &hmmod LGUI V  &kp B                  &kp N      &hmmod LGUI M  &hmmod LEFT_ALT COMMA  &hmmod RIGHT_CONTROL PERIOD  &kp SINGLE_QUOTE              &kp SLASH
+&kp ESCAPE  &kp Q                &kp W           &kp E                     &kp R          &kp T                  &kp Y      &kp U          &kp I                   &kp O                        &kp P                         &kp BSPC
+&kp TAB     &pinkyshift LSHFT A  &kp S           &hmlayer 2 D              &hmlayer 1 F   &kp G                  &kp H      &hmlayer 1 J   &hmlayer 2 K            &kp L                        &pinkyshift RSHIFT SEMICOLON  &kp RET
+&kp DEL     &kp Z                &hmmod LCTRL X  &hmmod LEFT_ALT C         &hmmod LGUI V  &kp B                  &kp N      &hmmod LGUI M  &hmmod RIGHT_ALT COMMA  &hmmod RIGHT_CONTROL PERIOD  &kp SINGLE_QUOTE              &kp SLASH
                                                  &mt LEFT_SHIFT LS(MINUS)  &mo 1          &spacsh LSHFT SPACE    &kp SPACE  &mo 2          &kp RALT
             >;
         };
