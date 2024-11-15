@@ -98,7 +98,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp AT                        &kp EXCL       &kp LBRC              &kp RBRC               &kp AMPERSAND    &kp CARET  &kp N7        &kp N8        &kp N9        &kp DOLLAR                &trans
+&trans  &kp RS(2)                        &kp EXCL       &kp LBRC              &kp RBRC               &kp AMPERSAND    &kp CARET  &kp N7        &kp N8        &kp N9        &kp DOLLAR                &trans
 &trans  &pinkyshift LEFT_SHIFT MINUS  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK     &kp N0     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &pinkyshift RSHIFT EQUAL  &trans
 &trans  &kp GRAVE                     &kp HASH       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT      &kp PIPE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA                 &trans
                                                      &trans                &trans                 &trans           &trans     &trans        &trans
