@@ -47,9 +47,9 @@
             flavor = "tap-unless-interrupted";
         };
 
-        pinkyshiftR: pinkyshiftR {
+        pinkyshiftL: pinkyshiftL {
             compatible = "zmk,behavior-hold-tap";
-            label = "PINKYSHIFTR";
+            label = "PINKYSHIFTL";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -59,9 +59,9 @@
             hold-trigger-key-positions = <6 18 30 39 40 41 31 19 7 8 20 32 33 21 9 10 22 34 35 23 11>;
         };
 
-        pinkyshiftL: pinkyshiftL {
+        pinkyshiftR: pinkyshiftR {
             compatible = "zmk,behavior-hold-tap";
-            label = "PINKYSHIFTL";
+            label = "PINKYSHIFTR";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -99,7 +99,7 @@
 
             bindings = <
 &trans  &kp F1                        &kp F2                      &kp F3                 &kp F4                        &kp F5     &kp F6    &kp F7    &kp F8   &kp F9         &kp F10                       &trans
-&trans  &pinkyshiftR LSHFT RS(MINUS)  &mt LEFT_CONTROL RS(EQUAL)  &mt LALT RS(NUMBER_6)  &hmmod LEFT_GUI RS(NUMBER_4)  &trans     &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT      &pinkyshiftR RIGHT_SHIFT END  &trans
+&trans  &pinkyshiftL LSHFT RS(MINUS)  &mt LEFT_CONTROL RS(EQUAL)  &mt LALT RS(NUMBER_6)  &hmmod LEFT_GUI RS(NUMBER_4)  &trans     &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT      &pinkyshiftL RIGHT_SHIFT END  &trans
 &trans  &kp RS(GRAVE)                 &trans                      &trans                 &trans                        &kp F11    &kp F12   &kp HOME  &kp END  &kp PAGE_DOWN  &kp PAGE_UP                   &trans
                                                                   &trans                 &trans                        &trans     &trans    &trans    &trans
             >;
@@ -114,7 +114,7 @@
 
             bindings = <
 &trans  &kp RS(NUMBER_2)               &kp RS(NUMBER_1)  &kp RS(LEFT_BRACKET)  &kp RS(RIGHT_BRACKET)  &kp RS(NUMBER_7)    &kp RS(N6)         &kp NUMBER_7  &kp N8        &kp N9        &kp RS(N4)                 &trans
-&trans  &pinkyshiftR LEFT_SHIFT MINUS  &kp BACKSLASH     &kp RS(N9)            &kp RS(N0)             &kp RS(N8)          &kp N0             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &pinkyshiftR RSHIFT EQUAL  &trans
+&trans  &pinkyshiftL LEFT_SHIFT MINUS  &kp BACKSLASH     &kp RS(N9)            &kp RS(N0)             &kp RS(N8)          &kp N0             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &pinkyshiftL RSHIFT EQUAL  &trans
 &trans  &kp GRAVE                      &kp RS(N3)        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RS(N5)          &kp RS(BACKSLASH)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA                  &trans
                                                          &trans                &trans                 &trans              &trans             &trans        &trans
             >;
