@@ -54,7 +54,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            flavor = "tap-unless-interrupted";
+            flavor = "hold-preferred";
             hold-trigger-key-positions = <6 18 30 39 40 41 31 19 7 8 20 32 33 21 9 10 22 34 35 23 11>;
         };
 
@@ -65,7 +65,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            flavor = "tap-unless-interrupted";
+            flavor = "hold-preferred";
             hold-trigger-key-positions = <0 12 24 25 13 1 2 14 26 27 15 3 4 16 28 36 37 38 29 17 5>;
         };
     };
