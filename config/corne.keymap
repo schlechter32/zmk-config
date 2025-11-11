@@ -111,10 +111,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp RS(NUMBER_2)               &kp RS(NUMBER_1)  &kp RS(LEFT_BRACKET)  &kp RS(RIGHT_BRACKET)  &kp RS(NUMBER_7)    &kp RS(N6)         &kp NUMBER_7  &kp N8        &kp N9        &kp RS(N4)                 &trans
-&trans  &pinkyshiftL LEFT_SHIFT MINUS  &kp BACKSLASH     &kp RS(N9)            &kp RS(N0)             &kp RS(N8)          &kp N0             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &pinkyshiftL RSHIFT EQUAL  &trans
-&trans  &kp GRAVE                      &kp RS(N3)        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RS(N5)          &kp RS(BACKSLASH)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA                  &trans
-                                                         &trans                &trans                 &trans              &trans             &trans        &trans
+&trans  &kp RS(NUMBER_2)  &kp RS(NUMBER_1)  &kp RS(LEFT_BRACKET)  &kp RS(RIGHT_BRACKET)  &kp RS(NUMBER_7)    &kp RS(N6)         &kp NUMBER_7  &kp N8        &kp N9        &kp RS(N4)  &trans
+&trans  &kp MINUS         &kp BACKSLASH     &kp RS(N9)            &kp RS(N0)             &kp RS(N8)          &kp N0             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL   &trans
+&trans  &kp GRAVE         &kp RS(N3)        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RS(N5)          &kp RS(BACKSLASH)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA   &trans
+                                            &trans                &trans                 &trans              &trans             &trans        &trans
             >;
         };
 
