@@ -81,10 +81,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE                   &hmmod LEFT_ALT Q  &kp W           &kp E              &kp R          &kp T                            &kp Y                          &kp U          &kp I                  &kp O                        &kp P             &kp BSPC
-&pinkyshiftL LEFT_SHIFT TAB  &kp A              &kp S           &hmlayer 2 D       &hmlayer 1 F   &kp G                            &kp H                          &hmlayer 1 J   &hmlayer 2 K           &kp L                        &kp SEMICOLON     &pinkyshiftR RIGHT_SHIFT RET
-&kp DEL                      &hmmod LCTRL Z     &hmmod LCTRL X  &hmmod LEFT_ALT C  &hmmod LGUI V  &kp B                            &kp N                          &hmmod LGUI M  &hmmod LEFT_ALT COMMA  &hmmod RIGHT_CONTROL PERIOD  &kp SINGLE_QUOTE  &kp SLASH
-                                                                &kp RIGHT_ALT      &mo 1          &hmmod LS(LC(LEFT_ALT)) SPACE    &hmmod LS(LC(LEFT_ALT)) SPACE  &mo 2          &kp RALT
+&kp ESCAPE                   &hmmod LEFT_ALT Q  &kp W           &kp E              &kp R          &kp T                            &kp Y        &kp U          &kp I                  &kp O                        &kp P             &kp BSPC
+&pinkyshiftL LEFT_SHIFT TAB  &kp A              &kp S           &hmlayer 2 D       &hmlayer 1 F   &kp G                            &kp H        &hmlayer 1 J   &hmlayer 2 K           &kp L                        &kp SEMICOLON     &pinkyshiftR RIGHT_SHIFT RET
+&kp DEL                      &hmmod LCTRL Z     &hmmod LCTRL X  &hmmod LEFT_ALT C  &hmmod LGUI V  &kp B                            &kp N        &hmmod LGUI M  &hmmod LEFT_ALT COMMA  &hmmod RIGHT_CONTROL PERIOD  &kp SINGLE_QUOTE  &hmmod LS(LC(LEFT_ALT)) SLASH
+                                                                &kp RIGHT_ALT      &mo 1          &hmmod LS(LC(LEFT_ALT)) SPACE    &key_repeat  &mo 2          &kp RALT
             >;
         };
 
